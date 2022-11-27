@@ -62,3 +62,13 @@ or run this command to download dataset asl_office_floor
 wget http://robotics.ethz.ch/~asl-datasets/RAL-2019-voxblox-plusplus/office_floor/asl_office_floor.bag
 ```
 ![](./fig/asl_mesh.png)
+
+### SceneNN Dataset
+```bash
+roslaunch gsm_node scenenn_dataset.launch bag_file:=/path/to/scenenn_231.bag
+```
+
+### ASL office floor dataset
+```bash
+roslaunch gsm_node asl_office_floor_dataset.launch bag_file:=/path/to/asl_office_floor.bag
+```
