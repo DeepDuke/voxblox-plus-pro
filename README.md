@@ -37,7 +37,7 @@ source ../devel/setup.bash # (bash shell: ../devel/setup.bash,  zsh shell: ../de
 
 ## Running
 Since this package needs to run with [yolact-ros-pro](https://github.com/DeepDuke/yolact-ros-pro).
-We highly recommend to use a ubuntu 16.04 (ROS kinetic) to build this package.
+We highly recommend to use a ubuntu 16.04 (ROS kinetic) docker container or ubuntu 18.04 (ROS melodic) docker container to build this package.
 
 ## Result
 Instance semantic segmentation result on dataset  [sceneNN](http://robotics.ethz.ch/~asl-datasets/RAL-2019-voxblox-plusplus/scenenn_231/scenenn_231.bag)
